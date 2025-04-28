@@ -8,9 +8,13 @@
   ],
   "license": "ISC",
   "author": "Mantu Kushawaha",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10"
   }
 }
